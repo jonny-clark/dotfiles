@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Start
+echo "`basename $0` starting."
+
+# scripts
+git clone git@bitbucket.org:craighurley/scripts.git ~/Projects/scripts
+
+# web sites
+git clone https://github.com/craighurley/thehurley.com.git ~/Projects/thehurley.com
+git clone https://github.com/craighurley/craighurley.github.io.git ~/Projects/craighurley.me
+
+# vps
+git clone https://github.com/craighurley/pesonal-vps.git ~/Projects/personal-vps
+
+# Finished
+echo "`basename $0` complete."

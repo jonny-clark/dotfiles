@@ -1,0 +1,5 @@
+###############################################################################
+# join.me
+###############################################################################
+
+defaults write com.logmein.join.me DefaultConferenceCountry -string "New Zealand - Auckland"
